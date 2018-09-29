@@ -10,7 +10,7 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		// Import Ascii stl file.
-		ImportSTL stl = new ImportSTL("Sphericon.stl");
+		ImportSTL stl = new ImportSTL("solid sphere.stl");
 		try {
 			stl.readFile();
 		} catch (IOException e) {
